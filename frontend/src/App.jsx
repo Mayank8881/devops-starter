@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
+const API = import.meta.env.VITE_BACKEND_URL;
 
 export default function App() {
   const [msg, setMsg] = useState("Loading...");
 
   useEffect(() => {
-    fetch("/api/message")
+    fetch(`${API}/api/message`)
       .then((res) => res.json())
-      .then((data) => setMsg(data.message))
-      .catch(() => setMsg("Backend not reachable"));
+      .then((data) => setMsg(data.message));
   }, []);
 
   return (
