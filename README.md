@@ -15,9 +15,23 @@ This project is a simple full-stack application:
 - React (Vite)
 - Hosted on Vercel
 
+```
+https://devops-starter.vercel.app/
+```
+
 ### Backend
 - Node.js + Express
 - Hosted on Render
+
+```
+https://backend-service-t2xi.onrender.com
+```
+
+Backend sample endpoints:
+
+- `GET /api/health` → health check
+- `GET /api/message` → test message
+
 
 ### DevOps / CI-CD
 - Docker + DockerHub
