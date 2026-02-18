@@ -1,4 +1,4 @@
-# My K8s App (React + Node) — CI/CD with DockerHub, Render, and Vercel
+# DevOps Starter — CI/CD with DockerHub, Render, and Vercel
 
 This project is a simple full-stack application:
 
